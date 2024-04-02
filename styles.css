@@ -18,9 +18,13 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color: bisque;
+   /*position: fixed;*/
 }
 
+img#header-img{
 
+
+}
 nav{
     display: flex;
     gap:200px;
@@ -77,16 +81,17 @@ border:0;
 background-color: darkorange;
 }
 
-.features{
+.Features{
     margin-top: 30px;
 }
 
 .grid{
     display: flex;
     align-items: baseline;
+
 }
 
-#features .icon{
+#Features .icon{
     display: flex;
     align-items: center;
     height:100px;
